@@ -1,0 +1,50 @@
+h1 {
+
+padding-top: 1.5rem;
+   
+}
+
+
+.header {
+    background-color: darkgray;
+    text-align: center;
+
+    height: 100px;
+}
+
+
+
+
+
+.sidebar {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+    width:20%;
+
+    background-color: antiquewhite;
+
+   
+}
+
+
+.sidebar {
+
+    float:left;
+}
+.maincontent {
+
+
+    width : 80%;
+    float:right;
+
+
+}
+
+.maincontent {
+
+    display: flex;
+
+    justify-content: flex-start;
+}
