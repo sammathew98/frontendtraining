@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <header>
+            <h1>Test Javascript Form Validation</h1>
+        </header>
+        <main>
+ 
+             <form>
+                <label for="Name">Name:</label><br>
+                <input type="text" id="Name" name="Name" pattern="[A-Za-z]{1,10}" required><br>
+
+                <label for="Address">Address:</label><br>
+                <input type="text" id="Address" name="Address" required><br>
+
+                <label for="ZipCode">ZipCode:</label><br>
+                <input type="number" id="ZipCode" name="ZipCode" required><br>
+
+                <label for="Country">Country:</label>
+
+                <select name="Country" id="Country" required>
+                <option value="abc">abc</option>
+                <option value="def">def</option>
+                <option value="ghis">ghi</option>
+                <option value="lmn">lmn</option>
+                </select> <br>
+                
+                <label for="Gender">Gender:</label>
+
+                <input type="radio" id="male" name="Gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="Gender" value="female">
+                <label for="female">Female</label><br>
+
+
+                <label for="Preference">Preference:</label><br>
+                <input type="text" id="Preference" name="Preference"><br>
+
+                <label for="Email">Email:</label><br>
+                <input type="email" id="Email" name="Email"><br>
+
+                <input type="submit" value="Submit">
+
+             </form>
+        
+        </main>
+
+    </body>
+</html>
