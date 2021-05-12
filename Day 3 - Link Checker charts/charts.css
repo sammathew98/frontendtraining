@@ -1,0 +1,63 @@
+.align-header {
+
+
+            float: left;
+            color:#FFFFFF ;
+            width: auto;
+} 
+
+
+.align-para {
+
+    float: right;
+    color:#FFFFFF ;
+    width: auto;
+}
+
+body {
+
+    background-color: #FFFFFF;
+}
+
+header {
+
+
+    background-color: #0D2450;
+
+    width: 1500px;
+    height:60px;
+
+    padding: 1rem;
+}
+
+.clearfix {
+
+    clear: both;
+}
+
+.clearfix {
+
+    overflow: auto;
+}
+
+
+
+
+.align-main {
+
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.align-footer1 {
+
+    float: left;
+    width: auto;
+}
+
+.align-footer2 {
+
+    float:right;
+    width: auto;
+}
