@@ -44,6 +44,9 @@
  }
 header{
     background: #0D2450;
+    margin: 0 auto;
+    max-width: 1600px;
+    width: 100%;
 }
 
 .clearfix {
@@ -83,6 +86,64 @@ footer{
     margin-right: 20px;
     margin-bottom: 20px;
 }
+
+main{
+    margin:0 auto;
+    max-width: 1334px;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+#cards-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#hello{
+    margin-top: 10px;
+    margin-bottom: 10px;  
+}
+
+#helloworld{
+    margin-top: 10px;
+    margin-bottom: 10px;  
+}
+
+.cards{
+   float: left;
+   width: calc(25% - 24px);
+   height: 221px;
+   background-color:brown;
+   margin-right: 32px;
+}
+
+.cards2{
+    float: left;
+    width: calc(25% - 24px);
+    height: 221px;
+    background-color:brown;
+    margin-right: 0px;
+ }
+
+#hii{
+    width: calc(25% - 24px);
+    height: 221px;
+    background-color: burlywood;
+}
+
+#hii2{
+    width: calc(25% - 24px);
+    height: 221px;
+    background-color: burlywood;
+}
+
+#left-half{
+    width: calc(60% - 20px);
+    background-color: burlywood;
+    height: 150px;
+}
+
+
 
 #part1{
     float :left;
