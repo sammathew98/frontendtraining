@@ -42,20 +42,25 @@ table {
 	border-spacing: 0;
 }
 
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
 
 header{
+    margin:0 auto;
     background-color: #0D2450;
     color:white;
-    padding: 15px;
 
 }
 .header-right{
     float : right;
     font-size:17px;
+    padding: 20px 50px 20px 0px;
 }
 .header-left{
     font-size:20px;
     float:left;
+    padding: 17px 0px 17px 49px;
 }
 .footer-right{
     float : right;
@@ -75,11 +80,9 @@ a:link, a:active{
     
 }
 footer{
-    float:bottom;
     background-color:white;
     bottom:0%;
     width:100%;
-    position: fixed;
 }
 body{
     background-color:#E8F1FF;
@@ -112,17 +115,16 @@ main{
     margin:0 auto;
     max-width:1344px;
     width: calc(100% - 72px);
+    position:relative;
 }
 .result-box{
     float:left;
-    margin-top:200px;
     background:white;
     border:1px;
     padding-top:24px;
     padding-left:24px;
     padding-bottom: 24px;
     border-radius: 8px;
-    font-family: Source Sans Pro;
     font-size: 24px;
     margin-right:24px;
     width:calc(25% - 42px);
@@ -132,14 +134,12 @@ main{
     margin-right: 0;
 }
 .bottom-section-item1{
-    margin-top:50px;
+    margin: 66px 47px 57px 0px;
     float:left;
 }
 
 .bottom-section-item2{
-    margin-top:50px;
-    margin-right: 54px;
-    margin-bottom:50px;
+    margin: 83px 54px 83px 0px ;
     float:right;
 }
 .bottom-section{
@@ -152,6 +152,7 @@ main{
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
 }
 .visit-button{
+    font-weight: bold;
     padding:20px 44px 20px 44px;
     font-size:16px;
     color:#1770F9;
@@ -160,6 +161,7 @@ main{
     background:white;
 }
 .bottom-section-line1{
+    font-weight: bold;
     font-size: 32px;
     font-weight: bold;
     color: #090909;
@@ -168,9 +170,68 @@ main{
     font-size: 14px;
     color: #292929;
     margin-top:11px;
-
 }
-
+.top-section{
+    margin: 62px auto 30px auto;
+}
+.top-section-1{
+    float:left;
+}
+.top-section-2{
+    float:right;
+}
+.top-section-report{
+    font-weight: bold;
+    font-size: 34px;
+    margin-bottom:9px;
+}
+.top-section-complete{
+    font-size: 16px;
+}
+.chart-section{
+    background:white;
+    margin-bottom:36px;
+    height:311px;
+    border:1px;
+    border-radius: 8px; 
+}
+.link-summary{
+    padding:24px;
+    font-size:24px;
+}
+.down-narrow{
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-right:10px;
+}
+.link-image{
+    border: 1px solid #1770F9;
+    padding:26px 28px 20px 20px;  
+    border-radius: 8px;
+}
+.number{
+    font-size:60px; 
+    font-weight: bold;
+}
+.drop-down{
+    position:absolute;
+    background:white;
+    border:1px;
+    border-radius: 8px; 
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+    font-size: 16px;
+    padding:20px 18px;
+    left: 1100px;
+    top: 75px;
+}
+.summary{
+    float:right;
+    margin-bottom: 20px;
+}
+.report{
+    float:right;
+}
  /* p:nth-child(2) {
+
     background: #ff0000;
   }*/

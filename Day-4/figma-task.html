@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link  rel="stylesheet" href="figma-task.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="clearfix">
@@ -13,25 +15,45 @@
 
     <main>
         <section class="top-section clearfix">
+            <div class="top-section-1">
+                <p class="top-section-report">Report for <a>www.dribbble.com</a></p>
+                <p class="top-section-complete">Check completed - Mon, 09 Feb 2021, 02:48:46 GMT (1min 25secs)</p>
+            </div>
+            <div  class="top-section-2 clearfix">                  
+                        <img width="70" class="down-narrow" src="downarrow.svg"/>
+                        <img class="link-image" src="link.svg"/>
+            </div>
+        </section>
+        <section>
+            <div class="drop-down">
+                <a class="summary" href="summary">Summary (PDF) </a><br/>
+                <a class="report" href="report">Detailed Report (xls)</a>
+            </div>
+        </section>
+        <section class="chart-section">
+                <p class="link-summary">Link Summary</p>
+        </section>
+
+        <section class="middle-section clearfix">
             <div  class="result-box">
                 <img width="58" src="dribble.svg"/>
                 <p class="main-link">www.dribble.com</p>
-                <p style="font-size:60px;">215</p>
+                <p class= "number">215</p>
             </div>
             <div  class="result-box">
                 <img width="58" style="size:1000px;"  src="SiteMap.svg"/>
                 <p class="main-link">Sitemap Scanned</p>
-                <p style="font-size:60px;">15</p>
+                <p class= "number">15</p>
             </div>
             <div  class="result-box">
                 <img width="58" src="BrokenLinks.svg"/>
                 <p class="main-link">Broken Links</p>
-                <p style="font-size:60px;">215</p>
+                <p class= "number">215</p>
             </div>
             <div  class="result-box">
                 <img width="58" src="LoadComponent.svg"/>
                 <p class="main-link">Load Time(seconds)</p>
-                <p style="font-size:60px;" >52</p>
+                <p class= "number" >52</p>
             </div>
         </section>
 
