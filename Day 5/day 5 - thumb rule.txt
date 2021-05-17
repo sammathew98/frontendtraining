@@ -1,0 +1,49 @@
+
+
+
+---------------Day 5 - Positions--------------
+
+
+Rule 1 : Never Use (Position : absolute) without (Position : relative ) 
+
+      ! if used without (position : relative), the parent containing the element with (position : absolute) loses its height.
+
+
+
+
+>>> Position : relative 
+
+ 1. To move the element/division from default place to where we are giving the properties (top : -px ; left : -px:)
+
+
+  Drawback : 
+
+
+ 2. The parent div doesn't consider the height of the child, if it holds the properties of (position : absolute) if the parent not having relative property
+
+
+
+>>>  scenario :
+
+
+    1. child will get hanged on the parent div initially , after giving co-ordinates it can be changed.
+
+
+>>> position : fixed 
+
+
+   use case : Chats popup , top navigation on webpages.
+
+
+    1. the element will remain on the screen upon scrolling, its placement depends on the position 
+
+
+
+
+>>> position : static 
+
+  It is the default css value for the position property
+
+
+
+   

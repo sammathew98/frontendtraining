@@ -1,0 +1,22 @@
+
+>>> Learnt things on 17-May-2021
+
+ 1. Media queries  > max-width , min-width , & both
+
+ 2. sass tech
+
+   i ) Naming a variable in scss
+
+   ii ) nesting of elements & adding styles to the interior elements
+
+   iii ) Partial files
+
+   iv)  mixins 
+
+   v ) extend / inheritence 
+
+  
+  vi ) about underscore 
+
+  vii ) To create new scss files for reset css & for clearfix class
+

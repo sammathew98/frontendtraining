@@ -1,0 +1,256 @@
+@import './colors';
+
+                   body {
+                    margin:0 auto;
+                    max-width:1500px;
+
+                    
+                }
+
+               header {
+
+                 background-color: $header-color;
+                 max-width: 1440px;
+
+               }
+
+               header {
+
+                   margin: 0 auto;
+                  
+               }
+
+               .clearfix::after {
+               content: "";
+               clear: both;
+               display: table;
+                 }
+
+               .linkChecker {
+
+                   float:left;
+                   width: 87.53;
+                   color:$link-checker-color;
+                  
+               }
+
+               .linkChecker {
+
+                 display: inline;
+                 font-size: 20px;
+                 padding: 1.25rem 3rem;
+               }
+
+
+               .linkExpire {
+
+                   float: right;
+                   width: auto;
+                   color: $link-checker-color;
+               }
+               .linkExpire {
+                   display: inline;
+                   padding: 1.25rem 3rem;
+               }
+
+               main {
+
+                 background: #FFFFFF;
+               }
+
+               .expirenceStyle {
+
+                 
+                   
+                   padding: 3rem 4rem .5rem 3rem;
+
+                   font-style: normal;
+                   font-weight: bold;
+                   font-size: 32px;
+                   line-height: 40px;
+
+                   color: $experience-section-color;
+               }
+
+               .experienceStyle2 {
+
+                 padding: 0 0 4rem 3rem;
+
+                 font-style: normal;
+                 font-weight: normal;
+                 font-size: 14px;
+                 line-height: 26px;
+
+
+
+                  color:$experience-section-color2;
+               }
+
+               .experience {
+
+                   float: left;
+
+                   width: 1020px;
+               }
+
+               .alignButton {
+
+                   float: left;
+
+                   width: 300px;
+               }
+
+               .alignButton {
+
+                 padding: 3rem 0 0 1rem;
+               }
+
+               button {
+
+                   background-color: transparent;
+
+                   border: 1px solid #1770F9;
+
+                   border-radius: 8px;
+
+                   font-style: normal;
+
+                   font-weight: 600;
+                   font-size: 16px;
+                  line-height: 20px;
+                
+
+                letter-spacing: 0.11em;
+
+                 color: $button-color;
+
+               }
+
+               .styleButton {
+
+                   padding : 20px 44px 20px 44px;
+               }
+
+               section {
+                        
+                    margin: 0 auto;    
+                    max-width: 1344px;
+
+                    margin-bottom: 36px;
+
+                   background: $section-color ;
+                   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+                   border-radius: 10px;
+               }
+
+           
+               .cards {
+
+                   float: left;
+
+                   width: 150px;
+
+                   
+                   background: $card-background;
+                   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+                   border-radius: 10px;
+
+                   padding: 24px;
+
+                   margin: 20px;
+               }
+
+               .align-cards {
+
+                   margin: 0 auto;
+
+                   max-width: 1000px;
+               }
+
+               img {
+
+                   padding: 24px 0 0 24px;
+               }
+
+               .card-title {
+
+                   padding: 24px 0 0 14px;
+
+                   font-style: normal;
+                  font-weight: normal;
+                  font-size: 24px;
+                  line-height: 30px;
+       
+                  color: $card-title-color;
+
+               }
+
+               .card-subtitle {
+
+                   
+                   font-style: normal;
+                    font-weight: normal;
+                   font-size: 60px;
+                     
+
+                      color: $card-subtitle-color;
+               }
+
+               .styleDribble {
+
+                 color: $dribble-color;
+               }
+
+               .reportSection {
+
+                   margin: 0 auto;
+
+                   max-width: 1000px ;
+               }
+
+               .reportLeftSection {
+
+                   float:left;
+
+                   width:460px ;
+               }
+
+               .reportRightSection {
+
+                   float: right;
+
+                   width :135px ;
+               }
+
+               .report {
+
+                   padding: .7rem 0 .7rem 0;
+
+                   font-style: normal;
+                    font-weight: 600;
+                   font-size: 34px;
+                   line-height: 43px;
+
+
+
+                   color:$report-color;
+               }
+
+                 .checkStatus {
+                      color: $check-status-color;
+                     font-style: normal;
+                   font-weight: normal;
+                  font-size: 16px;
+                  line-height: 20px;
+
+                 }
+
+                 .timeComponent {
+
+                     font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 20px;
+
+                   color:  $time-text-color;
+                 }

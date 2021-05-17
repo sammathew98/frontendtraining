@@ -1,0 +1,146 @@
+.align-header {
+
+
+            float: left;
+            color:#FFFFFF ;
+            width: auto;
+} 
+
+.align-header {
+
+
+    margin: 0 auto;
+
+    width:auto;
+}
+
+
+.align-para {
+
+    float: right;
+    color:#FFFFFF ;
+    width: auto;
+}
+
+.align-total {
+
+    margin: 0 auto;
+
+    width:1000px;
+
+    padding-top: 15px;
+}
+
+body {
+
+    background-color: #FFFFFF;
+}
+
+header {
+
+
+    background-color: #0D2450;
+
+    width: 1500px;
+    height:60px;
+
+    padding: 1rem;
+}
+
+
+
+
+.clearfix {
+
+    clear: both;
+}
+
+
+
+main.clearfix {
+
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+    
+}
+
+
+.align-main {
+
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.align-main{
+
+    float:left;
+}
+
+.align-footer1 {
+
+    float: left;
+    width: auto;
+}
+
+.align-footer2 {
+
+    float:right;
+    width: auto;
+}
+
+
+.cards {
+
+
+    float:left;
+
+    width:22%;
+    margin: 5px;
+
+    background:#FFFFFF;
+}
+
+.card-title {
+
+    margin: 0 auto;
+
+    width:150px;
+
+  
+}
+
+body main img {
+
+
+
+    
+    margin-bottom: 40px;
+    
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+
+ main img {
+
+
+
+    
+    margin-bottom: 15px;
+    
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+main {
+
+     
+
+    background-color: #E8F1FF;
+}
+
+footer {
+
+    border: 50px solid #FFFFFF;
