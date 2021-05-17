@@ -1,104 +1,62 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+@import './color' ;
+@import './font';
+@import './reset_css';
+@import './clear-fix';
 
 *{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: $font-family;
 }
-
 
 
 header{
     margin:0 auto;
-    background-color: #0D2450;
-    color:white;
-
+    background-color: $header-background;
+    color: $header;
 }
 .header-right{
     float : right;
-    font-size:17px;
+    font-size:$header-right;
     padding: 20px 50px 20px 0px;
 }
 .header-left{
-    font-size:20px;
+    font-size:$header-left;
     float:left;
     padding: 17px 0px 17px 49px;
 }
 .footer-right{
     float : right;
-    font-size:14px;
+    font-size:$footer-right;
     margin:36px 48px;
 }
+
 .footer-left{
-    font-size:20px;
+    font-size:$footer-left;
     float:left;
 }
 .terms-condition{
     margin-right:48px;
 }
 a:link, a:active{
-    color:black;
+    color:$anchor-color;
     text-decoration: none;
     
 }
 footer{
-    background-color:white;
-    bottom:0%;
-    width:100%;
+    background-color: $footer-background;
 }
 body{
-    background-color:#E8F1FF;
+    background-color:$body-background;
 }
 .copyright{
-    color: #00000080;
-    font-size: 14px;
+    color: $anchor-color;
+    font-size: $footer-link;
     margin-top:26px;
     margin-left:51px;
     padding:1px;
 }
 .hashout{
-    color:#00000080;
-    font-size: 14px;
+    color:$anchor-color;
+    font-size: $footer-link;
     font-style: italic;
     margin-left:51px;
     margin-top:2px;
@@ -121,13 +79,13 @@ main{
 }
 .result-box{
     float:left;
-    background:white;
+    background:$section-background;
     border:1px;
     padding-top:24px;
     padding-left:24px;
     padding-bottom: 24px;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: $result-box;
     margin-right:24px;
     width:calc(25% - 42px);
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
@@ -148,7 +106,7 @@ main{
     margin-top:50px;
     margin-bottom:50px;
     padding-left:47px;
-    background:white;
+    background:$section-background;
     border:1px;
     border-radius: 8px; 
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
@@ -156,21 +114,21 @@ main{
 .visit-button{
     font-weight: bold;
     padding:20px 44px 20px 44px;
-    font-size:16px;
-    color:#1770F9;
-    border:1px solid #1770F9;
+    font-size:$visit-button;
+    color: $button;
+    border:1px solid $border;
     border-radius: 8px;
-    background:white;
+    background:$section-background;
 }
 .bottom-section-line1{
     font-weight: bold;
-    font-size: 32px;
+    font-size: $text-line1;
     font-weight: bold;
-    color: #090909;
+    color: $main-text;
 }
 .bottom-section-line2{
-    font-size: 14px;
-    color: #292929;
+    font-size: $text-line2;
+    color: $paragraph-text;
     margin-top:11px;
 }
 .top-section{
@@ -184,14 +142,14 @@ main{
 }
 .top-section-report{
     font-weight: bold;
-    font-size: 34px;
+    font-size: $text-report;
     margin-bottom:9px;
 }
 .top-section-complete{
-    font-size: 16px;
+    font-size: $text-complete;
 }
 .chart-section{
-    background:white;
+    background: $section-background;
     margin-bottom:36px;
     height:311px;
     border:1px;
@@ -199,7 +157,7 @@ main{
 }
 .link-summary{
     padding:24px;
-    font-size:24px;
+    font-size:$link-summary;
 }
 .down-narrow{
     box-sizing: border-box;
@@ -207,21 +165,21 @@ main{
     margin-right:10px;
 }
 .link-image{
-    border: 1px solid #1770F9;
+    border: 1px solid $border;
     padding:26px 28px 20px 20px;  
     border-radius: 8px;
 }
 .number{
-    font-size:60px; 
+    font-size:$number; 
     font-weight: bold;
 }
 .drop-down{
     position:absolute;
-    background:white;
+    background:$section-background;
     border:1px;
     border-radius: 8px; 
-    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
-    font-size: 16px;
+    box-shadow: 0px 0px 25px $box-shadow;
+    font-size: $drop-down;
     padding:20px 18px;
     left: 1100px;
     top: 75px;
