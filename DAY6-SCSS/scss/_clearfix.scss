@@ -1,0 +1,11 @@
+@mixin clearfix_mixin {
+    .clearfix {
+        overflow: auto;
+    }
+    
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+}

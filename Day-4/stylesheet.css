@@ -122,7 +122,7 @@ main{
     margin-right: 32px;
 }
 
-#info-banner{
+.info-banner{
     height: 150px;
     background: #FFFFFF;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
@@ -155,12 +155,12 @@ main{
     line-height: 75px;
     color: #090909;
 }
-#info-banner1{
+.info-banner1{
     float:left;
     max-width: 928px;
     margin-left: 47px;
 }
-#h1banner{
+.h1banner{
     width: 928px;
     height: 40px;
     font-family: Source Sans Pro;
@@ -171,7 +171,7 @@ main{
     color: #090909;
     margin-bottom: 11px;
 }
-#h2banner{
+.h2banner{
     width: 768px;
     height: 52px;
     font-family: Source Sans Pro;
@@ -194,7 +194,7 @@ main{
     margin-top: 12px;
 }
 
-#text-box{
+.text-box{
     margin : 20px 40px 20px 44px;
     font-family: Source Sans Pro;
     font-style: normal;
@@ -205,14 +205,14 @@ main{
     color: #1770F9;
 }
 
-#left-part{
+.left-part{
     width: 50%;
     padding-left: 15px;
     float:left;
 }
 
 
-#part1{
+.part1{
     width: 100%;
     margin-top: 26px;
     float :left;
@@ -224,7 +224,7 @@ main{
     color: rgba(0, 0, 0, 0.5);
 }
 
-#part2{
+.part2{
     float :left;
     font-family: Source Sans Pro;
     font-style: normal;
@@ -234,7 +234,7 @@ main{
     color: rgba(0, 0, 0, 0.5);
 }
 
-#right-part{
+.right-part{
     padding-top: 36px;
 }
 
@@ -262,5 +262,6 @@ main{
     margin-right: 48px;
     color: #000000;
 }
+
 
 
