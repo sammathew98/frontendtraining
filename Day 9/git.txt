@@ -1,0 +1,186 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\Prakash Ravichandran\Desktop\Front-End Training\Day 9> npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (day-9)
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author:
+About to write to C:\Users\Prakash Ravichandran\Desktop\Front-End Training\Day 9\package.json:
+
+{
+  "name": "day-9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) yes
+PS C:\Users\Prakash Ravichandran\Desktop\Front-End Training\Day 9> npm install
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN day-9@1.0.0 No repository field.
+
+up to date in 0.56s
+found 0 vulnerabilities
+
+PS C:\Users\Prakash Ravichandran\Desktop\Front-End Training\Day 9> npm install -g gulp
+npm WARN deprecated chokidar@2.1.8: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated fsevents@1.2.13: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
+C:\Users\Prakash Ravichandran\AppData\Roaming\npm\gulp -> C:\Users\Prakash Ravichandran\AppData\Roaming\npm\node_modules\gulp\bin\gulp.js
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.2.7 (node_modules\gulp\node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ gulp@4.0.2
+updated 1 package in 17.967s
+PS C:\Users\Prakash Ravichandran\Desktop\Front-End Training\Day 9> npm install --save-dev gulp
+npm WARN deprecated chokidar@2.1.8: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated fsevents@1.2.13: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.2.7 (node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN day-9@1.0.0 No description
+npm WARN day-9@1.0.0 No repository field.
+
++ gulp@4.0.2
+added 326 packages from 226 contributors and audited 327 packages in 16.757s
+
+7 packages are looking for funding
+  run `npm fund` for details
+
+found 1 low severity vulnerability
+  run `npm audit fix` to fix them, or `npm audit` for details
+PS C:\Users\Prakash Ravichandran\Desktop\Front-End Training\Day 9> npm install --save-dev gulp-util  gulp-sass  gulp-minify-css gulp-rename  gulp-autoprefixer gulp-util gulp-minify-css gulp-rename del gulp-uglify gulp-concat jshint gulp-jshint gulp-wrapper gulp-sourcemaps
+npm WARN deprecated gulp-util@3.0.8: gulp-util is deprecated - replace it, following the guidelines at https://medium.com/gulpjs/gulp-util-ca3b1f9f9ac5
+npm WARN deprecated gulp-minify-css@1.2.4: Please use gulp-clean-css
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+
+> node-sass@4.14.1 install C:\Users\Prakash Ravichandran\Desktop\Front-End Training\Day 9\node_modules\node-sass
+> node scripts/install.js
+
+Cached binary found at C:\Users\Prakash Ravichandran\AppData\Roaming\npm-cache\node-sass\4.14.1\win32-x64-83_binding.node
+
+> node-sass@4.14.1 postinstall C:\Users\Prakash Ravichandran\Desktop\Front-End Training\Day 9\node_modules\node-sass
+> node scripts/build.js
+
+Binary found at C:\Users\Prakash Ravichandran\Desktop\Front-End Training\Day 9\node_modules\node-sass\vendor\win32-x64-83\binding.node
+Testing binary
+Binary is fine
+npm WARN day-9@1.0.0 No description
+npm WARN day-9@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ del@6.0.0
++ gulp-sass@4.1.0
++ gulp-util@3.0.8
++ gulp-util@3.0.8
++ gulp-uglify@3.0.2
++ gulp-autoprefixer@7.0.1
++ gulp-rename@2.0.0
++ gulp-rename@2.0.0
++ gulp-concat@2.6.1
++ gulp-wrapper@1.0.0
++ gulp-jshint@2.1.0
++ jshint@2.12.0
++ gulp-sourcemaps@3.0.0
++ gulp-minify-css@1.2.4
++ gulp-minify-css@1.2.4
+added 293 packages from 210 contributors and audited 620 packages in 27.447s
+
+23 packages are looking for funding
+  run `npm fund` for details
+
+found 5 vulnerabilities (2 low, 3 moderate)
+  run `npm audit fix` to fix them, or `npm audit` for details
+PS C:\Users\Prakash Ravichandran\Desktop\Front-End Training\Day 9> gulp sass
+[17:19:38] Using gulpfile ~\Desktop\Front-End Training\Day 9\gulpfile.js
+[17:19:38] Starting 'sass'...
+[17:19:38] Generate CSS files Thu May 20 2021 17:19:38 GMT+0530 (India Standard Time)
+[17:19:38] Finished 'sass' after 162 ms
+PS C:\Users\Prakash Ravichandran\Desktop\Front-End Training\Day 9> gulp watch
+[17:20:39] Using gulpfile ~\Desktop\Front-End Training\Day 9\gulpfile.js
+[17:20:39] Starting 'watch'...
+[17:20:39] Watching scss files for modifications
+[17:20:39] 'watch' errored after 7.29 ms
+[17:20:39] Error: watching scss/*.scss: watch task has to be a function (optionally generated by using gulp.parallel or gulp.series)
+    at Gulp.watch (C:\Users\Prakash Ravichandran\Desktop\Front-End Training\Day 9\node_modules\gulp\index.js:31:11)
+    at C:\Users\Prakash Ravichandran\Desktop\Front-End Training\Day 9\gulpfile.js:23:7
+    at watch (C:\Users\Prakash Ravichandran\Desktop\Front-End Training\Day 9\node_modules\undertaker\lib\set-task.js:13:15)
+    at bound (domain.js:413:15)
+    at runBound (domain.js:424:12)
+    at asyncRunner (C:\Users\Prakash Ravichandran\Desktop\Front-End Training\Day 9\node_modules\async-done\index.js:55:18)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+PS C:\Users\Prakash Ravichandran\Desktop\Front-End Training\Day 9> gulp watch
+[17:25:15] Using gulpfile ~\Desktop\Front-End Training\Day 9\gulpfile.js
+[17:25:15] Starting 'watch'...
+[17:25:15] Watching scss files for modifications
+[17:42:51] Starting 'sass'...
+[17:42:51] Generate CSS files Thu May 20 2021 17:42:51 GMT+0530 (India Standard Time)
+[17:42:51] Finished 'sass' after 114 ms
+[17:44:38] Starting 'sass'...
+[17:44:38] Generate CSS files Thu May 20 2021 17:44:38 GMT+0530 (India Standard Time)
+[17:44:38] Finished 'sass' after 32 ms
+[17:44:58] Starting 'sass'...
+[17:44:58] Generate CSS files Thu May 20 2021 17:44:58 GMT+0530 (India Standard Time)
+[17:44:58] Finished 'sass' after 19 ms
+[17:45:51] Starting 'sass'...
+[17:45:51] Generate CSS files Thu May 20 2021 17:45:51 GMT+0530 (India Standard Time)
+[17:45:51] Finished 'sass' after 19 ms
+[17:46:07] Starting 'sass'...
+[17:46:07] Generate CSS files Thu May 20 2021 17:46:07 GMT+0530 (India Standard Time)
+[17:46:07] Finished 'sass' after 22 ms
+[17:48:56] Starting 'sass'...
+[17:48:56] Generate CSS files Thu May 20 2021 17:48:56 GMT+0530 (India Standard Time)
+[17:48:56] Finished 'sass' after 29 ms
+[17:49:51] Starting 'sass'...
+[17:49:51] Generate CSS files Thu May 20 2021 17:49:51 GMT+0530 (India Standard Time)
+[17:49:51] Finished 'sass' after 19 ms
+[17:50:30] Starting 'sass'...
+[17:50:30] Generate CSS files Thu May 20 2021 17:50:30 GMT+0530 (India Standard Time)
+[17:50:30] Finished 'sass' after 21 ms
+[17:51:00] Starting 'sass'...
+[17:51:00] Generate CSS files Thu May 20 2021 17:51:00 GMT+0530 (India Standard Time)
+[17:51:00] Finished 'sass' after 21 ms
+[17:51:43] Starting 'sass'...
+[17:51:43] Generate CSS files Thu May 20 2021 17:51:43 GMT+0530 (India Standard Time)
+[17:51:43] Finished 'sass' after 36 ms
+[17:53:11] Starting 'sass'...
+[17:53:11] Generate CSS files Thu May 20 2021 17:53:11 GMT+0530 (India Standard Time)
+[17:53:11] Finished 'sass' after 23 ms
+[17:54:00] Starting 'sass'...
+[17:54:00] Generate CSS files Thu May 20 2021 17:54:00 GMT+0530 (India Standard Time)
+[17:54:00] Finished 'sass' after 26 ms
+[17:54:22] Starting 'sass'...
+[17:54:22] Generate CSS files Thu May 20 2021 17:54:22 GMT+0530 (India Standard Time)
+[17:54:22] Finished 'sass' after 28 ms
+
+
+
+
+

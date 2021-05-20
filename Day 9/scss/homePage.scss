@@ -1,0 +1,126 @@
+@import './colors';
+
+                   body {
+                    margin:0 auto;
+                    max-width:1500px;
+
+                    
+                }
+
+                body {
+                    background: linear-gradient(180deg, #F4F5F9 0%, rgba(244, 245, 249, 0) 100%);
+                }
+
+               header {
+
+                 background-color: $header-color;
+                 max-width: 1440px;
+
+               }
+
+               header {
+
+                   margin: 0 auto;
+                  
+               }
+
+               .clearfix::after {
+               content: "";
+               clear: both;
+               display: table;
+                 }
+
+               .linkChecker {
+
+                   float:left;
+                   width: 87.53;
+                   color:$link-checker-color;
+                  
+               }
+
+               .linkChecker {
+
+                 display: inline;
+                 font-size: 20px;
+                 padding: 1.25rem 3rem;
+               }
+
+
+               .linkExpire {
+
+                   float: right;
+                   width: auto;
+                   color: $link-checker-color;
+               }
+               .linkExpire {
+                   display: inline;
+                   padding: 1.25rem 3rem;
+               }
+
+               main {
+
+                 background: #FFFFFF;
+               }
+
+legend {
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 46px;
+color: #0A1D41;
+              }
+
+ .formTopic {
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+
+color: #292929;
+}
+
+input[type="email"] {
+
+    background: #FFFFFF;
+    border: 1px solid #1770F9;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+input[type="url"] {
+
+    background: #FFFFFF;
+    border: 1px solid #1770F9;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+input[type="checkbox"] {
+
+    background: #FFFFFF;
+    border: 1px solid #1770F9;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+input[type="submit"] {
+
+    background: #FFFFFF;
+    border: 1px solid #1770F9;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+input[name="submit"] {
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.11em;
+text-transform: uppercase;
+color: #1770F9;
+
+padding: 20px 67px 20px 60px;
+}
+
+
+
