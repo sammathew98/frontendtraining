@@ -121,10 +121,10 @@ body{
     display: table;
 }
 main{
+
     margin:0 auto;
     max-width:1344px;
     width: calc(100% - 72px);
-    position:relative;
 }
 .result-box{
     float:left;
@@ -209,6 +209,7 @@ main{
     font-size:24px;
 }
 .down-narrow{
+    display:inline-block;
     box-sizing: border-box;
     border-radius: 8px;
     margin-right:10px;
@@ -217,6 +218,44 @@ main{
     border: 1px solid #1770F9;
     padding:26px 28px 20px 20px;  
     border-radius: 8px;
+}
+.tooltip {
+    position:relative;
+    display: inline;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: -30%;
+    margin-left: -60px;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 86%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+.link-image-parent{
+    display:inline-block;
 }
 .number{
     font-size:60px; 
@@ -266,7 +305,7 @@ main{
     }
     .result-box{
         width: calc(100% - 36px);
-    margin-bottom: 20px;
+        margin-bottom: 20px;
     }
   }
   @media only screen and (min-width: 600px) and (max-width:1024px){
@@ -284,7 +323,6 @@ main{
 
     }
     .result-box{
-        
         width: calc(50% - 48px);
         margin-bottom: 20px;
     }
