@@ -1,0 +1,49 @@
+@import 'clear-fix';
+@import 'reset-css';
+@import 'font';
+@import 'color';
+
+*{
+    font-family: $font-family !important;
+}
+body{
+    background-color: white;
+}
+
+.main{
+    margin: 0 auto;
+    max-width:1372px;
+    width:calc(50%);
+    text-align:center;
+}
+.header{
+    margin-top:97px;
+    font-size:20px;
+    font-weight:600;
+}
+
+.welcome-container{
+    background-color: #E8F1FF;
+    border-radius: 8px;
+    box-sizing: border-box;
+
+    &__heading{
+        font-size:42px;
+        margin-bottom:9px;
+    }
+    &__text{
+        font-size:18px;
+        margin-bottom:37px;
+    }
+
+    &__button{
+        margin-bottom: 92px;
+        padding:10px 20px;
+        color: #1770F9;
+        border:1px solid #1770F9;
+        background:white;
+        font-weight: 600;
+        font-size: 16px;
+        border-radius:8px;
+    }
+}

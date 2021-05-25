@@ -1,0 +1,59 @@
+@import 'clear-fix';
+@import 'reset-css';
+@import 'font';
+@import 'color';
+
+
+.modal-section{
+    border-radius: 8px;
+    position: fixed;
+    margin-top: 125px;
+    margin-left: 276px;
+    background:$modal-color;
+    z-index:4000;
+    max-width:816px;
+}
+.modal-image{
+    margin:67.2px 300px 24px 300px; 
+    width:172px;
+    height:175px;
+}
+.modal-heading{
+    font-weight: 300;
+    font-size: 42px;
+    color: #090909;
+    margin-left:194px;
+    padding:2px;
+}
+.modal-text{
+    margin-top:7px;
+    font-size:18px;
+    margin-left:205px;
+}
+.modal-footer{
+    margin-top:87px;
+    margin-left:175px;
+    font-size: 14px;
+    margin-bottom:25px;
+    font-weight: 300;
+}
+.background-div{
+    background:rgba(0, 0, 0, 0.6);
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.modal-cross-button{
+    float:right;
+    margin-top:30px;
+    margin-right:30px;
+}
+.click-here-link{
+    text-decoration: underline !important;
+    color:rgb(91, 171, 247);
+}

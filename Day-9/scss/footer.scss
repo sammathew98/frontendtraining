@@ -1,0 +1,41 @@
+@import 'clear-fix';
+@import 'reset-css';
+@import 'font';
+@import 'color';
+
+
+
+.footer{
+
+    background:$footer-background;
+    &__container{
+        margin:0 auto;
+        max-width:1372px;
+        width:calc(100% - 72px);
+    }
+    &__left-container{
+        float:left;
+    }
+    &__right-container{
+        margin-top:36px;
+        margin-bottom:36px;
+        float:right;
+    }
+    &__hashout{
+        margin-top:2px;
+        font-size: $hashout;
+        margin:2px;
+        padding:3px 0px;
+        font-style:italic;
+    }
+    &__terms-condition{
+        margin-right:48px;
+    }
+    &__copyright{
+        font-size: $copyright;
+        font-weight: 600;
+        margin-top:26px;
+        padding:1px;
+    }
+}
+
