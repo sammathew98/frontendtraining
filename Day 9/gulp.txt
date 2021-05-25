@@ -1,0 +1,17 @@
+PS C:\Users\Prakash Ravichandran\Desktop\Front-End Training\Day 9> gulp task
+[22:25:01] Using gulpfile ~\Desktop\Front-End Training\Day 9\gulpfile.js
+[22:25:01] Task never defined: task
+[22:25:01] To list available tasks, try running: gulp --tasks
+PS C:\Users\Prakash Ravichandran\Desktop\Front-End Training\Day 9> gulp task
+[22:25:41] Using gulpfile ~\Desktop\Front-End Training\Day 9\gulpfile.js
+[22:25:41] Task never defined: task
+[22:25:41] To list available tasks, try running: gulp --tasks
+PS C:\Users\Prakash Ravichandran\Desktop\Front-End Training\Day 9> gulp sass
+[22:26:44] Using gulpfile ~\Desktop\Front-End Training\Day 9\gulpfile.js
+[22:26:44] Starting 'sass'...
+[22:26:44] Generate CSS files Sat May 22 2021 22:26:44 GMT+0530 (India Standard Time)
+[22:26:44] Finished 'sass' after 180 ms
+PS C:\Users\Prakash Ravichandran\Desktop\Front-End Training\Day 9> gulp watch
+[22:27:48] Using gulpfile ~\Desktop\Front-End Training\Day 9\gulpfile.js
+[22:27:48] Starting 'watch'...
+[22:27:48] Watching scss files for modifications

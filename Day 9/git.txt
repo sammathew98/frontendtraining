@@ -117,7 +117,7 @@ added 293 packages from 210 contributors and audited 620 packages in 27.447s
   run `npm fund` for details
 
 found 5 vulnerabilities (2 low, 3 moderate)
-  run `npm audit fix` to fix them, or `npm audit` for details
+  run `npm audit fix` to fix them, or `npm audit` for detailsgulp 
 PS C:\Users\Prakash Ravichandran\Desktop\Front-End Training\Day 9> gulp sass
 [17:19:38] Using gulpfile ~\Desktop\Front-End Training\Day 9\gulpfile.js
 [17:19:38] Starting 'sass'...
