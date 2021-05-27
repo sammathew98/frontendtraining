@@ -1,0 +1,221 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.clearfix {
+  overflow: auto; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+body {
+  background: #E8F1FF; }
+
+main {
+  background-color: #E8F1FF; }
+
+.container {
+  margin: 0 auto; }
+
+header {
+  background: #0D2450; }
+
+.header {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+  width: calc(100% - 100px);
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 50px;
+  padding-right: 50px; }
+
+.left-topic {
+  color: white; }
+
+.left {
+  margin-right: 107px;
+  float: left;
+  margin-bottom: 201px; }
+
+.right {
+  width: 60%;
+  float: left; }
+
+.entry-field {
+  font-size: 16px;
+  padding-left: 20px; }
+
+.box {
+  text-align: center;
+  max-width: 270px;
+  width: 100%;
+  max-height: 277px;
+  height: 100%;
+  float: left;
+  background-color: white;
+  border-radius: 5px; }
+
+.odd {
+  margin-right: 37px; }
+
+.box:nth-child(1) {
+  margin-top: 133px; }
+
+.box:nth-child(2) {
+  margin-top: 167px;
+  margin-bottom: 38.15px; }
+
+form {
+  margin-top: 342px; }
+
+.entry-field {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 14px;
+  margin-bottom: 28px;
+  max-width: 658px;
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #1770F9;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px; }
+
+.submit-button {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 67px;
+  padding-right: 67px;
+  font-family: Source Sans Pro;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: #1770F9;
+  background: #FFFFFF;
+  border-radius: 8px;
+  border: 1px solid #1770F9;
+  margin-top: 28px; }
+
+.bold {
+  font-family: sans-serif;
+  font-size: 18px;
+  padding: 4%; }
+
+.text {
+  font-size: 16px;
+  padding: 5%; }
+
+.image {
+  margin-top: 13%;
+  padding: 4%; }
+
+.bottom {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3%; }
+
+.bottom-box {
+  padding-bottom: 71px;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: white;
+  max-width: 647px;
+  width: calc(100% - 50px); }
+
+.gradient {
+  margin-bottom: 25px;
+  width: 597px;
+  height: 370px;
+  background: -o-linear-gradient(348.6deg, #A7A7A7 0%, rgba(219, 219, 219, 0.56) 60.29%);
+  background: linear-gradient(101.4deg, #A7A7A7 0%, rgba(219, 219, 219, 0.56) 60.29%);
+  opacity: 0.5;
+  border-radius: 10px; }
+
+.head-text {
+  margin-bottom: 15px;
+  font-size: 36px;
+  font-weight: 700; }
+
+.middle-text {
+  margin-bottom: 7px;
+  font-size: 20px;
+  color: #1770F9; }
+
+.bottom-text {
+  font-size: 18px; }
+
+footer {
+  background-color: white; }
+
+.footer {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: calc(100% - 100px);
+  padding-top: 36px;
+  padding-bottom: 36px;
+  padding-left: 50px;
+  padding-right: 50px; }
+
+.left-foot {
+  width: 50%;
+  float: left; }
+
+.right-foot {
+  text-align: right;
+  width: 50%;
+  float: right; }
+
+.privacy {
+  display: inline;
+  margin-left: 48px; }
+
+.terms {
+  display: inline; }
